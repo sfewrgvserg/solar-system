@@ -1,0 +1,17 @@
+.links{
+    @apply flex items-center font-medium p-10 justify-center hover:scale-125 duration-200
+}
+.spaced-item{
+    margin-right: 5px;
+}
+@keyframes slider {
+    from{
+        scale: 0;
+    }
+    to{
+        scale: 1;
+    }
+}
+.heading{
+    animation: slider 1s ease-out 0s 1 normal none;
+}
